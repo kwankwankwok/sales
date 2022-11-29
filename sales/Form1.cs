@@ -22,7 +22,7 @@ namespace sales
             InitializeComponent();
             connection.ConnectionString = ConfigurationManager.ConnectionStrings["sales.Properties.Settings.Database1ConnectionString"].ToString();
         }
-
+ 
         private void refetchDb(string keyword = "")
         {
             try
